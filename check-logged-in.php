@@ -15,5 +15,6 @@ require_once plugin_dir_path(__FILE__) . 'src/SaveMetaData.php';
 require_once plugin_dir_path(__FILE__) . 'src/Implement.php';
 //Shortcode page
 require_once plugin_dir_path(__FILE__) . 'shortcode/shortcodeLoginRedirect.php';
+require_once plugin_dir_path(__FILE__) . 'shortcode/shortcodeHeaderStatus.php';
 
 ?>

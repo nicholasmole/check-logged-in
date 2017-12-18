@@ -32,7 +32,7 @@ function get_ciuli_url(){
     if (get_option( 'wpse_check_if_user_logged_in' ) == ''):
         return home_url();
     else:   
-        return get_option( 'wpse_check_if_user_logged_in' ); 
+        return home_url().get_option( 'wpse_check_if_user_logged_in' ); 
     endif;
 }
 ?>

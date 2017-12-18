@@ -18,7 +18,7 @@ function my_ciuli_plugin_options() {
     if(isset($_POST)){
         
         if($_POST['_wp_this_is_url']){
-            change_url_value($_POST['action']);
+            change_url_value($_POST['_wp_this_is_url']);
         }
         
     }
@@ -34,10 +34,10 @@ function my_ciuli_plugin_options() {
                 <!--<form action="<?php //content_url() echo plugin_dir_path(__FILE__) . 'src/UpdateList.php'; ?>"  method="POST">-->
                 
                 <div>
-                    <form method="post" action="?page=add_user_fields_unique_slug">
+                    <form method="post" action="?page=ciuli_unique_slug">
                         <input type="text" name="_wp_this_is_url" value="<?php if( get_ciuli_url() == home_url()):echo '';else: echo get_ciuli_url(); endif; ?> ">
                         <input type="hidden" name="action" value="_wp_this_is_url_Value">
-                        <button href="?page=add_user_fields_unique_slug" type="submit" class="button button-primary button-large" value="DeleteUpdate">SAVE IT</button>
+                        <button href="?page=ciuli_unique_slug" type="submit" class="button button-primary button-large" value="DeleteUpdate">SAVE IT</button>
                     </form>
                 </div>
                 <br/>
@@ -52,7 +52,7 @@ function my_ciuli_plugin_options() {
 
 function change_url_value($new_value){
     if($new_value != ''){
-        update_option( 'wpse_check_if_user_logged_in', home_url().$new_value);
+        update_option( 'wpse_check_if_user_logged_in', $new_value);
     }
 }
 
