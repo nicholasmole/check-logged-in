@@ -2,7 +2,7 @@
   "name": "nicholasmole/check-logged-in",
   "version" : "1.0.0",
   "description": "Checks if user is logged in. Allows redirecting now users",
-  "type": "",
+  "type": "wordpress-plugin",
   "authors": [
     {
       "name": "Nicholas Mole",
