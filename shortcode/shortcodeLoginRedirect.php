@@ -1,5 +1,13 @@
 <?php
 
+/*
+Check Login Redirect Shortcode:
+If you wanted to add a Shortcode version of redirect function.
+This short code can take in the attribute to redirect the user
+to a specified url 
+
+*/
+
 add_shortcode( 'checkLoginRedirect', 'checkLoginRedirect' );
 
 include_once(ABSPATH . 'wp-includes/pluggable.php');

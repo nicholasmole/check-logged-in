@@ -1,0 +1,15 @@
+{
+  "name": "nicholasmole/check-logged-in",
+  "version" : "1.0.0",
+  "description": "Checks if user is logged in. Allows redirecting now users",
+  "type": "",
+  "authors": [
+    {
+      "name": "Nicholas Mole",
+      "email": "nmole065@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1"
+  }
+}

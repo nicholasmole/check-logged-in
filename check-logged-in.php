@@ -7,7 +7,9 @@
  * Text Domain: ciuli-check-if-user-logged-in
  */
 
-ob_clean(); ob_start();
+
+//In wordpress - on_cleqn is used to erase output buffer to help Redirct with no issues
+ ob_clean(); ob_start();
 require_once plugin_dir_path(__FILE__) . 'src/Helper.php';
 require_once plugin_dir_path(__FILE__) . 'src/OptionsPage.php';
 require_once plugin_dir_path(__FILE__) . 'src/AddMetaBox.php';
