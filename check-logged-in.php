@@ -21,5 +21,6 @@ require_once plugin_dir_path(__FILE__) . 'shortcode/shortcodeHeaderStatus.php';
 
 require_once plugin_dir_path(__FILE__) . 'whereverlogout/whereverlogout.php';
 require_once plugin_dir_path(__FILE__) . 'ciuli-menuonlywhenlogged-in/ciuli-menuonlywhenlogged-in.php';
+require_once plugin_dir_path(__FILE__) . 'overwrite-vc-wp-logout/overwrite-vc-wp-logout.php';
 
 ?>
