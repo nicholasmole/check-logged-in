@@ -19,4 +19,7 @@ require_once plugin_dir_path(__FILE__) . 'src/Implement.php';
 require_once plugin_dir_path(__FILE__) . 'shortcode/shortcodeLoginRedirect.php';
 require_once plugin_dir_path(__FILE__) . 'shortcode/shortcodeHeaderStatus.php';
 
+require_once plugin_dir_path(__FILE__) . 'whereverlogout/whereverlogout.php';
+require_once plugin_dir_path(__FILE__) . 'ciuli-menuonlywhenlogged-in/ciuli-menuonlywhenlogged-in.php';
+
 ?>
