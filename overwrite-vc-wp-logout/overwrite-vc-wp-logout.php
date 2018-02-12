@@ -1,4 +1,3 @@
-
 <?php
   function ciuli_overwrite_vc_wp_logout(){
     /*-----------
@@ -35,4 +34,3 @@
     
   }
   add_action('wp_footer', 'ciuli_overwrite_vc_wp_logout');
-?>

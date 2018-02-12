@@ -68,4 +68,3 @@ function ciuli_this_page_init()
 		);
 }
 
-?>

@@ -28,10 +28,3 @@
     
   }
   add_action('wp_footer', 'ciuli_logout_anywhere');
-?>
-
-
-
-
-
-

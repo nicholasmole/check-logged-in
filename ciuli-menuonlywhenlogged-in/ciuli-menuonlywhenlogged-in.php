@@ -33,4 +33,3 @@
     
   }
   add_action('wp_footer', 'ciuli_menuonlywhenlogged_in');
-?>

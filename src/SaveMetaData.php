@@ -25,4 +25,3 @@ function ciuli_this_save_metabox( $post_id )
     
 }
 
-?>
