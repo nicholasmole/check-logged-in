@@ -1,4 +1,3 @@
-
 <?php
   function ciuli_overwrite_vc_wp_logout(){
     /*-----------
