@@ -34,4 +34,3 @@
     
   }
   add_action('wp_footer', 'ciuli_overwrite_vc_wp_logout');
-?>

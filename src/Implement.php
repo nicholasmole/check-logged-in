@@ -42,4 +42,3 @@ function ciuli_your_function(){
 }
 
 
-?>

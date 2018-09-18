@@ -54,4 +54,3 @@ function my_ciuli_plugin_options() {
 
 
 
-?>

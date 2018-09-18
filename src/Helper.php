@@ -27,4 +27,3 @@ function change_url_value($new_value){
         update_option( 'wpse_check_if_user_logged_in', $new_value);
     }
 }
-?>
